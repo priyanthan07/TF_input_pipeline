@@ -11,7 +11,7 @@ For the training of the machine learning algorithm. The TensorFlow libraries pla
 
 as_numpy_iterator and numpy() can be used to convert tensor to numpy.
 
-- take () and skip()   functions are used to create separate datasets for training and testing purposes. 
+ take () and skip()   functions are used to create separate datasets for training and testing purposes. 
 - get_label()     : This function can be used to retrieve the label from each data.
 - process_image() : This function can be used to decode and resize the images.  tf has decode_jpeg functions.
 - scale()         : Scale function used to convert all the values between 0 to 1.
