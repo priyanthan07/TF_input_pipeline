@@ -6,7 +6,7 @@ Data Extraction:      tf. data.Dataset (from_tensor_slices() |  list_files())
 Filter         :      filter(filter_func) gets required data only.
 Mapping        :      Map(func), This is used to apply the same changes to the entire dataset
 lambda         :      used to define the function simply.
-scalling       :      Bring values to the required range
+scalling       :      Bring values to the required range.
 shuffel(n)     :      shuffle the dataset. Here, n is the buffer value. 
 
 as_numpy_iterator and numpy() can be used to convert tensor to numpy.
